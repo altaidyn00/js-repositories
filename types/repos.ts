@@ -110,6 +110,4 @@ export interface RepositoriesList {
     total_count: number;
     incomplete_results: boolean;
     items: Repository[];
-    message?: string;
-    documentation_url?: string;
 }
